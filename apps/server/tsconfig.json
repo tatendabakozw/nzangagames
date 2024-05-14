@@ -1,0 +1,26 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@app/*": ["app/*"],
+      "@config/*": ["config/*"],
+      "@models/*": ["models/*"],
+      "@routes/*": ["routes/*"],
+      "@helpers/*": ["helpers/*"],
+      "@controllers/*": ["controllers/*"],
+      "@middleware/*": ["middleware/*"]
+    }
+  }
+}

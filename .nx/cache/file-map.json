@@ -1,0 +1,1589 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.8",
+  "deps": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@heroicons/react": "^2.1.1",
+    "@nx/next": "17.2.8",
+    "@octokit/rest": "^20.0.2",
+    "@pulumi/gcp": "^7.5.0",
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.5",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.0.1",
+    "framer-motion": "^10.18.0",
+    "helmet": "^7.1.0",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "next": "13.4.4",
+    "next-auth": "^4.24.5",
+    "node-stream-zip": "^1.15.0",
+    "npm": "^10.3.0",
+    "passport": "^0.7.0",
+    "passport-github": "^1.1.0",
+    "progress-stream": "^2.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.0.1",
+    "tslib": "^2.3.0",
+    "uuid": "^9.0.1",
+    "yauzl": "^2.10.0",
+    "@nx/eslint": "17.2.8",
+    "@nx/eslint-plugin": "17.2.8",
+    "@nx/express": "17.2.8",
+    "@nx/jest": "17.2.8",
+    "@nx/js": "17.2.8",
+    "@nx/node": "17.2.8",
+    "@nx/react": "17.2.8",
+    "@nx/webpack": "17.2.8",
+    "@nx/workspace": "17.2.8",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@svgr/webpack": "^8.0.1",
+    "@swc-node/register": "~1.6.7",
+    "@swc/core": "~1.3.85",
+    "@testing-library/react": "14.0.0",
+    "@types/express": "4.17.13",
+    "@types/jest": "^29.4.0",
+    "@types/js-cookie": "^3.0.6",
+    "@types/multer": "^1.4.11",
+    "@types/node": "18.16.9",
+    "@types/passport-github": "^1.1.12",
+    "@types/react": "18.2.33",
+    "@types/react-dom": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "autoprefixer": "10.4.13",
+    "babel-jest": "^29.4.1",
+    "dotenv": "^16.3.1",
+    "eslint": "~8.48.0",
+    "eslint-config-next": "13.4.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "jest-environment-node": "^29.4.1",
+    "nx": "17.2.8",
+    "postcss": "8.4.21",
+    "prettier": "^2.6.2",
+    "react-refresh": "^0.10.0",
+    "tailwindcss": "3.2.7",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.2.2",
+    "url-loader": "^4.1.1"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".DS_Store",
+        "hash": "5801946218490571648"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11794453376241132421"
+      },
+      {
+        "file": "README.md",
+        "hash": "14092094954589389577"
+      },
+      {
+        "file": "apps/.DS_Store",
+        "hash": "8867995196777851323"
+      },
+      {
+        "file": "dist/apps/server/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "dist/apps/server/main.js",
+        "hash": "5595402118205514890"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "997301948574683547"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "17431361835117329963"
+      },
+      {
+        "file": "package.json",
+        "hash": "12457943062188412011"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "uploads/wwwroot.zip",
+        "hash": "15002295175187028194"
+      }
+    ],
+    "projectFileMap": {
+      "landing-page": [
+        {
+          "file": "apps/landing-page/.DS_Store",
+          "hash": "7222583389662808042"
+        },
+        {
+          "file": "apps/landing-page/.eslintrc.json",
+          "hash": "4656185553914440429"
+        },
+        {
+          "file": "apps/landing-page/.next/build-manifest.json",
+          "hash": "3407738162702355569"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/client-development/0.pack",
+          "hash": "1497214509255358091"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/client-development/1.pack",
+          "hash": "16577549726933577349"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/client-development/2.pack",
+          "hash": "16030373931775419381"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/client-development/3.pack",
+          "hash": "2222113357811974733"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/client-development/4.pack",
+          "hash": "7353815899986392056"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/client-development/5.pack",
+          "hash": "6989284851230738241"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/client-development/6.pack",
+          "hash": "5826353200603042037"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/client-development/7.pack",
+          "hash": "1698987028905255452"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/client-development/8.pack",
+          "hash": "9826366190796710084"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/client-development/index.pack",
+          "hash": "6706097504869383020"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/client-development/index.pack.old",
+          "hash": "10614344714608270191"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/server-development/0.pack",
+          "hash": "3966336437804882190"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/server-development/1.pack",
+          "hash": "12090606298847136541"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/server-development/2.pack",
+          "hash": "6657526376156506365"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/server-development/3.pack",
+          "hash": "7458596901523460470"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/server-development/4.pack",
+          "hash": "13227305154479499027"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/server-development/5.pack",
+          "hash": "12438808194411342905"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/server-development/6.pack",
+          "hash": "9656894247008021788"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/server-development/index.pack",
+          "hash": "2037104227460686857"
+        },
+        {
+          "file": "apps/landing-page/.next/cache/webpack/server-development/index.pack.old",
+          "hash": "17606278454953817723"
+        },
+        {
+          "file": "apps/landing-page/.next/package.json",
+          "hash": "11338307439248427064"
+        },
+        {
+          "file": "apps/landing-page/.next/react-loadable-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/landing-page/.next/server/middleware-build-manifest.js",
+          "hash": "9909024676579369328"
+        },
+        {
+          "file": "apps/landing-page/.next/server/middleware-manifest.json",
+          "hash": "11919384916463558595"
+        },
+        {
+          "file": "apps/landing-page/.next/server/middleware-react-loadable-manifest.js",
+          "hash": "6523262110494612775"
+        },
+        {
+          "file": "apps/landing-page/.next/server/next-font-manifest.js",
+          "hash": "5679515833791060948"
+        },
+        {
+          "file": "apps/landing-page/.next/server/next-font-manifest.json",
+          "hash": "8927915864298715861"
+        },
+        {
+          "file": "apps/landing-page/.next/server/pages-manifest.json",
+          "hash": "15612830796335463659"
+        },
+        {
+          "file": "apps/landing-page/.next/server/pages/_app.js",
+          "hash": "3257622324399896249",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/landing-page/.next/server/pages/_document.js",
+          "hash": "702248701404102631",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/landing-page/.next/server/pages/_error.js",
+          "hash": "14030533851710867534",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/landing-page/.next/server/pages/index.js",
+          "hash": "6448958568511428327",
+          "deps": [
+            [
+              "npm:react",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/landing-page/.next/server/webpack-runtime.js",
+          "hash": "702733446797855659"
+        },
+        {
+          "file": "apps/landing-page/.next/static/chunks/amp.js",
+          "hash": "4389627815891280923"
+        },
+        {
+          "file": "apps/landing-page/.next/static/chunks/main.js",
+          "hash": "15958361436358553256"
+        },
+        {
+          "file": "apps/landing-page/.next/static/chunks/pages/_app.js",
+          "hash": "16893155202464161664"
+        },
+        {
+          "file": "apps/landing-page/.next/static/chunks/pages/_error.js",
+          "hash": "6916705719246238453"
+        },
+        {
+          "file": "apps/landing-page/.next/static/chunks/pages/index.js",
+          "hash": "18354265921667382863"
+        },
+        {
+          "file": "apps/landing-page/.next/static/chunks/polyfills.js",
+          "hash": "3837536670243305325"
+        },
+        {
+          "file": "apps/landing-page/.next/static/chunks/react-refresh.js",
+          "hash": "2259533332924015683"
+        },
+        {
+          "file": "apps/landing-page/.next/static/chunks/webpack.js",
+          "hash": "12031823449237764968"
+        },
+        {
+          "file": "apps/landing-page/.next/static/development/_buildManifest.js",
+          "hash": "8138022077466165139"
+        },
+        {
+          "file": "apps/landing-page/.next/static/development/_ssgManifest.js",
+          "hash": "17018243955171961484"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/25717c0aa472fc8a.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/amp.fcfd0ad99d56cc8d.hot-update.js",
+          "hash": "14546836370183989978"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/b560450ad27d0683.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/cf5b56bbd5e309be.webpack.hot-update.json",
+          "hash": "16339736351406320396"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/fcfd0ad99d56cc8d.webpack.hot-update.json",
+          "hash": "18231569253111888201"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/main.fcfd0ad99d56cc8d.hot-update.js",
+          "hash": "17156651070093532975"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/pages/index.25717c0aa472fc8a.hot-update.js",
+          "hash": "18044041781816855910"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/pages/index.cf5b56bbd5e309be.hot-update.js",
+          "hash": "642589240068718096"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/webpack.25717c0aa472fc8a.hot-update.js",
+          "hash": "14988070990321386619"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/webpack.b560450ad27d0683.hot-update.js",
+          "hash": "15311657848421620158"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/webpack.cf5b56bbd5e309be.hot-update.js",
+          "hash": "17416570602888045257"
+        },
+        {
+          "file": "apps/landing-page/.next/static/webpack/webpack.fcfd0ad99d56cc8d.hot-update.js",
+          "hash": "12001516689620520756"
+        },
+        {
+          "file": "apps/landing-page/.next/trace",
+          "hash": "3736902903894651465"
+        },
+        {
+          "file": "apps/landing-page/components/navigation/Navbar.tsx",
+          "hash": "7345087616551502336",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/landing-page/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/landing-page/jest.config.ts",
+          "hash": "12019148192493989120"
+        },
+        {
+          "file": "apps/landing-page/next-env.d.ts",
+          "hash": "5909181270615354023"
+        },
+        {
+          "file": "apps/landing-page/next.config.js",
+          "hash": "17252635002163063865",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/landing-page/pages/_app.tsx",
+          "hash": "15522354953028672248",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/landing-page/pages/index.module.css",
+          "hash": "4786619528779355986"
+        },
+        {
+          "file": "apps/landing-page/pages/index.tsx",
+          "hash": "5966010513599968014"
+        },
+        {
+          "file": "apps/landing-page/pages/styles.css",
+          "hash": "14068262883928760014"
+        },
+        {
+          "file": "apps/landing-page/postcss.config.js",
+          "hash": "2759402739052110475",
+          "deps": [
+            "npm:path"
+          ]
+        },
+        {
+          "file": "apps/landing-page/project.json",
+          "hash": "996142931522989561"
+        },
+        {
+          "file": "apps/landing-page/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/landing-page/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/landing-page/specs/index.spec.tsx",
+          "hash": "11056183168799669859",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/landing-page/tailwind.config.js",
+          "hash": "13090734457927965885",
+          "deps": [
+            "npm:@nx/react",
+            "npm:path"
+          ]
+        },
+        {
+          "file": "apps/landing-page/tsconfig.json",
+          "hash": "1196244096058765300"
+        },
+        {
+          "file": "apps/landing-page/tsconfig.spec.json",
+          "hash": "6922413205408300107"
+        },
+        {
+          "file": "apps/landing-page/utils/data.ts",
+          "hash": "1642239762029043601"
+        }
+      ],
+      "dashboard": [
+        {
+          "file": "apps/dashboard/.DS_Store",
+          "hash": "6266976630139402765"
+        },
+        {
+          "file": "apps/dashboard/.eslintrc.json",
+          "hash": "16567602561985105793"
+        },
+        {
+          "file": "apps/dashboard/.next/build-manifest.json",
+          "hash": "7650154028548653837"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/images/EDcpdVl-8H5MKTDu8kKouLiuaX0yEq1pzCuV2ZeqlGE=/60.1705322118133.Tpw1fgv7NS67TcACL6wyhz-v34gmy1q+RaEntRdDcLQ=.webp",
+          "hash": "6394845110235874828"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/images/nsf6gXK1rSJ-Islz3ZPXDLvII8AkrddrWLdPlESqLVo=/60.1705322110432.i1faC-i5a+3mG5KG-Bj4h51GmQ9-6eBma7-5n9+POLk=.webp",
+          "hash": "7147644396079954173"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/0.pack",
+          "hash": "9412443596671531995"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/1.pack",
+          "hash": "17777941347328434207"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/10.pack",
+          "hash": "17491438255457024843"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/11.pack",
+          "hash": "11803577445880504925"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/12.pack",
+          "hash": "14052423184103639049"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/13.pack",
+          "hash": "9659120012109763056"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/14.pack",
+          "hash": "10930387416251454335"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/15.pack",
+          "hash": "15331467939440138504"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/16.pack",
+          "hash": "11249448766253567298"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/17.pack",
+          "hash": "6809713705016136670"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/18.pack",
+          "hash": "9758946505554810631"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/19.pack",
+          "hash": "4284034454063873924"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/2.pack",
+          "hash": "7857055784550269502"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/20.pack",
+          "hash": "7142261620546034418"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/21.pack",
+          "hash": "11564136843842054930"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/22.pack",
+          "hash": "16328867022718923263"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/23.pack",
+          "hash": "485720616578820459"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/24.pack",
+          "hash": "13998665853001027742"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/3.pack",
+          "hash": "12481994250070403960"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/4.pack",
+          "hash": "15958098881186527109"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/5.pack",
+          "hash": "6493169833286540286"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/6.pack",
+          "hash": "14891752997754740492"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/7.pack",
+          "hash": "16471023359951145339"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/8.pack",
+          "hash": "8971602062688320789"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/9.pack",
+          "hash": "15972246465503013251"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/index.pack",
+          "hash": "10537883198629104717"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/client-development/index.pack.old",
+          "hash": "3811682107651156231"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/0.pack",
+          "hash": "5822337762243628829"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/1.pack",
+          "hash": "15816060750285409657"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/10.pack",
+          "hash": "9883050779300933991"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/11.pack",
+          "hash": "14616479355705837982"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/12.pack",
+          "hash": "11983744978614955478"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/13.pack",
+          "hash": "6818441239890139136"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/14.pack",
+          "hash": "5822337762243628829"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/15.pack",
+          "hash": "15426491510982273671"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/16.pack",
+          "hash": "13478479717368403556"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/17.pack",
+          "hash": "8355670265096640166"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/18.pack",
+          "hash": "13994665281696876828"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/19.pack",
+          "hash": "9978104806568943120"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/2.pack",
+          "hash": "1523010817922462317"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/3.pack",
+          "hash": "12468584940565660892"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/4.pack",
+          "hash": "5821563551797952850"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/5.pack",
+          "hash": "918640226102574076"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/6.pack",
+          "hash": "4167109794269135520"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/7.pack",
+          "hash": "2256788641395658211"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/8.pack",
+          "hash": "14643801634332029035"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/9.pack",
+          "hash": "6297114762292793081"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/index.pack",
+          "hash": "16057181329797034352"
+        },
+        {
+          "file": "apps/dashboard/.next/cache/webpack/server-development/index.pack.old",
+          "hash": "14322070034827191325"
+        },
+        {
+          "file": "apps/dashboard/.next/package.json",
+          "hash": "11338307439248427064"
+        },
+        {
+          "file": "apps/dashboard/.next/react-loadable-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/dashboard/.next/server/_error.js",
+          "hash": "8859650415433782841",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/dashboard/.next/server/middleware-build-manifest.js",
+          "hash": "18290684574752574744"
+        },
+        {
+          "file": "apps/dashboard/.next/server/middleware-manifest.json",
+          "hash": "11919384916463558595"
+        },
+        {
+          "file": "apps/dashboard/.next/server/middleware-react-loadable-manifest.js",
+          "hash": "6523262110494612775"
+        },
+        {
+          "file": "apps/dashboard/.next/server/next-font-manifest.js",
+          "hash": "5679515833791060948"
+        },
+        {
+          "file": "apps/dashboard/.next/server/next-font-manifest.json",
+          "hash": "8927915864298715861"
+        },
+        {
+          "file": "apps/dashboard/.next/server/pages-manifest.json",
+          "hash": "12962065164816604237"
+        },
+        {
+          "file": "apps/dashboard/.next/server/pages/_app.js",
+          "hash": "3465370463104747269",
+          "deps": [
+            [
+              "npm:react",
+              "dynamic"
+            ],
+            [
+              "npm:@chakra-ui/react",
+              "dynamic"
+            ],
+            [
+              "npm:js-cookie",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/dashboard/.next/server/pages/_document.js",
+          "hash": "6511025376777636838",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/dashboard/.next/server/pages/_error.js",
+          "hash": "14030533851710867534",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/dashboard/.next/server/pages/index.js",
+          "hash": "4207669799519386828",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ],
+            [
+              "npm:axios",
+              "dynamic"
+            ],
+            [
+              "npm:js-cookie",
+              "dynamic"
+            ],
+            [
+              "npm:react-icons",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/dashboard/.next/server/pages/new/static-site.js",
+          "hash": "505848995516417275",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ],
+            [
+              "npm:@heroicons/react",
+              "dynamic"
+            ],
+            [
+              "npm:axios",
+              "dynamic"
+            ],
+            [
+              "npm:js-cookie",
+              "dynamic"
+            ],
+            [
+              "npm:react-icons",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/dashboard/.next/server/pages/new/web-service.js",
+          "hash": "16749134192289539100",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ],
+            [
+              "npm:@heroicons/react",
+              "dynamic"
+            ],
+            [
+              "npm:js-cookie",
+              "dynamic"
+            ],
+            [
+              "npm:react-icons",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/dashboard/.next/server/pages/overview.js",
+          "hash": "16123708501584269267",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ],
+            [
+              "npm:@heroicons/react",
+              "dynamic"
+            ],
+            [
+              "npm:js-cookie",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/dashboard/.next/server/webpack-runtime.js",
+          "hash": "14267353520882404021"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/_error.js",
+          "hash": "16855920152019055592"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/amp.js",
+          "hash": "4389627815891280923"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/main.js",
+          "hash": "17555053856078986823"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/pages/_app.js",
+          "hash": "1207160334581115451"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/pages/_error.js",
+          "hash": "6916705719246238453"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/pages/index.js",
+          "hash": "8273057504721619604"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/pages/new/static-site.js",
+          "hash": "7925656675177566057"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/pages/new/web-service.js",
+          "hash": "13506139813981367955"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/pages/overview.js",
+          "hash": "5494458394963509663"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/polyfills.js",
+          "hash": "3837536670243305325"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/react-refresh.js",
+          "hash": "2259533332924015683"
+        },
+        {
+          "file": "apps/dashboard/.next/static/chunks/webpack.js",
+          "hash": "12936487609339302276"
+        },
+        {
+          "file": "apps/dashboard/.next/static/development/_buildManifest.js",
+          "hash": "1371764063233099149"
+        },
+        {
+          "file": "apps/dashboard/.next/static/development/_ssgManifest.js",
+          "hash": "17018243955171961484"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/0b1db6291029f533.webpack.hot-update.json",
+          "hash": "2648828491266392627"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/0e671fee07bb120d.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/24207a57422b04d1.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/aaa480038ed781bd.webpack.hot-update.json",
+          "hash": "18231569253111888201"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/amp.aaa480038ed781bd.hot-update.js",
+          "hash": "14546836370183989978"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/d8ad3ca6227dae1d.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/fa7fc4fad4d4130e.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/main.aaa480038ed781bd.hot-update.js",
+          "hash": "17156651070093532975"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/webpack.0b1db6291029f533.hot-update.js",
+          "hash": "8308499086091891429"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/webpack.0e671fee07bb120d.hot-update.js",
+          "hash": "8581500918893524926"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/webpack.24207a57422b04d1.hot-update.js",
+          "hash": "793336288090069060"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/webpack.aaa480038ed781bd.hot-update.js",
+          "hash": "687580143512510596"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/webpack.d8ad3ca6227dae1d.hot-update.js",
+          "hash": "9836296860166953781"
+        },
+        {
+          "file": "apps/dashboard/.next/static/webpack/webpack.fa7fc4fad4d4130e.hot-update.js",
+          "hash": "1962073194628969136"
+        },
+        {
+          "file": "apps/dashboard/.next/trace",
+          "hash": "4124894542177892911"
+        },
+        {
+          "file": "apps/dashboard/components/.DS_Store",
+          "hash": "13126811002900123722"
+        },
+        {
+          "file": "apps/dashboard/components/alerts/Alert.tsx",
+          "hash": "8735028747256429543",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/components/buttons/GithubButton.tsx",
+          "hash": "2777007170044807539",
+          "deps": [
+            "npm:react",
+            "npm:react-icons"
+          ]
+        },
+        {
+          "file": "apps/dashboard/components/buttons/LoginButton.tsx",
+          "hash": "6402651302149191691",
+          "deps": [
+            "npm:next-auth"
+          ]
+        },
+        {
+          "file": "apps/dashboard/components/buttons/PrimaryButton.tsx",
+          "hash": "497545816741148180",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/components/inputs/CustomInput.tsx",
+          "hash": "15832153174785905046",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/components/navigation/Navbar.tsx",
+          "hash": "8143973174584401545",
+          "deps": [
+            "npm:@heroicons/react",
+            "npm:next",
+            "npm:@utils/data",
+            "npm:react",
+            "npm:@context/Store",
+            "npm:@utils/types"
+          ]
+        },
+        {
+          "file": "apps/dashboard/components/page-heading/PageHeading.tsx",
+          "hash": "15444340933588786127",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/components/page-sections/overview-sections/OverviewHeading.tsx",
+          "hash": "11503218131989277610",
+          "deps": [
+            "npm:@components/page-heading/PageHeading",
+            "npm:@heroicons/react",
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/components/project-items/ProjectItem.tsx",
+          "hash": "7586801588232995867",
+          "deps": [
+            "npm:@heroicons/react",
+            "npm:@utils/types",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/context/Store.tsx",
+          "hash": "4512474953247115553",
+          "deps": [
+            "npm:react",
+            "npm:js-cookie",
+            "npm:@utils/types"
+          ]
+        },
+        {
+          "file": "apps/dashboard/helpers/getMessage.tsx",
+          "hash": "13095831075880973066"
+        },
+        {
+          "file": "apps/dashboard/hooks/useAuthFetch.tsx",
+          "hash": "5873344725757202793",
+          "deps": [
+            "npm:@helpers/getMessage",
+            "npm:axios",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/hooks/useFetch.tsx",
+          "hash": "11676407829568909420",
+          "deps": [
+            "npm:@helpers/getMessage",
+            "npm:axios",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/dashboard/jest.config.ts",
+          "hash": "17415202351400100603"
+        },
+        {
+          "file": "apps/dashboard/layouts/DashboardLayout.tsx",
+          "hash": "3497137048680273844",
+          "deps": [
+            "npm:react",
+            "npm:@components/navigation/Navbar",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/dashboard/next-env.d.ts",
+          "hash": "5909181270615354023"
+        },
+        {
+          "file": "apps/dashboard/next.config.js",
+          "hash": "17252635002163063865",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/dashboard/pages/.DS_Store",
+          "hash": "17785141631316880463"
+        },
+        {
+          "file": "apps/dashboard/pages/_app.tsx",
+          "hash": "3376049127080053600",
+          "deps": [
+            "npm:next",
+            "npm:@chakra-ui/react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/pages/_document.tsx",
+          "hash": "16301668014005279112",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/pages/api/auth/[...nextauth].ts",
+          "hash": "6895098985027593314",
+          "deps": [
+            "npm:next-auth"
+          ]
+        },
+        {
+          "file": "apps/dashboard/pages/index.module.css",
+          "hash": "4786619528779355986"
+        },
+        {
+          "file": "apps/dashboard/pages/index.tsx",
+          "hash": "7540349835011685724",
+          "deps": [
+            "npm:react",
+            "npm:next",
+            "npm:react-icons",
+            "npm:axios",
+            "npm:@utils/apiUrl",
+            "npm:@helpers/getMessage",
+            "npm:@components/alerts/Alert",
+            "npm:@context/Store",
+            "npm:@utils/types"
+          ]
+        },
+        {
+          "file": "apps/dashboard/pages/new/static-site.tsx",
+          "hash": "5522716662846724652",
+          "deps": [
+            "npm:@components/buttons/GithubButton",
+            "npm:@components/buttons/PrimaryButton",
+            "npm:@components/page-heading/PageHeading",
+            "npm:@context/Store",
+            "npm:@heroicons/react",
+            "npm:@hooks/useAuthFetch",
+            "npm:@layouts/DashboardLayout",
+            "npm:@utils/apiUrl",
+            "npm:@utils/types",
+            "npm:react",
+            "npm:react-icons"
+          ]
+        },
+        {
+          "file": "apps/dashboard/pages/new/web-service.tsx",
+          "hash": "18424575831927128892",
+          "deps": [
+            "npm:@components/buttons/PrimaryButton",
+            "npm:@components/page-heading/PageHeading",
+            "npm:@heroicons/react",
+            "npm:@layouts/DashboardLayout",
+            "npm:react",
+            "npm:react-icons"
+          ]
+        },
+        {
+          "file": "apps/dashboard/pages/overview/index.tsx",
+          "hash": "16174494785709842108",
+          "deps": [
+            "npm:@components/page-sections/overview-sections/OverviewHeading",
+            "npm:@components/project-items/ProjectItem",
+            "npm:@heroicons/react",
+            "npm:@layouts/DashboardLayout",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/pages/register/index.tsx",
+          "hash": "6504735483821892635",
+          "deps": [
+            "npm:react",
+            "npm:next",
+            "npm:react-icons",
+            "npm:@components/buttons/PrimaryButton",
+            "npm:@components/inputs/CustomInput",
+            "npm:axios",
+            "npm:@utils/apiUrl",
+            "npm:@helpers/getMessage",
+            "npm:@components/alerts/Alert"
+          ]
+        },
+        {
+          "file": "apps/dashboard/pages/styles.css",
+          "hash": "11321715887343955694"
+        },
+        {
+          "file": "apps/dashboard/postcss.config.js",
+          "hash": "2759402739052110475",
+          "deps": [
+            "npm:path"
+          ]
+        },
+        {
+          "file": "apps/dashboard/project.json",
+          "hash": "5855197123089086451"
+        },
+        {
+          "file": "apps/dashboard/public/.DS_Store",
+          "hash": "13400439712154305148"
+        },
+        {
+          "file": "apps/dashboard/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/dashboard/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/dashboard/public/icons/.DS_Store",
+          "hash": "3009319466260422130"
+        },
+        {
+          "file": "apps/dashboard/public/icons/google-logo.png",
+          "hash": "1715014172771186582"
+        },
+        {
+          "file": "apps/dashboard/specs/index.spec.tsx",
+          "hash": "11056183168799669859",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/dashboard/tailwind.config.js",
+          "hash": "17994243195524517608",
+          "deps": [
+            "npm:@nx/react",
+            "npm:path"
+          ]
+        },
+        {
+          "file": "apps/dashboard/tsconfig.json",
+          "hash": "8739397957208978293"
+        },
+        {
+          "file": "apps/dashboard/tsconfig.spec.json",
+          "hash": "6922413205408300107"
+        },
+        {
+          "file": "apps/dashboard/utils/apiUrl.ts",
+          "hash": "12263738070280180239"
+        },
+        {
+          "file": "apps/dashboard/utils/data.ts",
+          "hash": "5203020969961963727"
+        },
+        {
+          "file": "apps/dashboard/utils/types.ts",
+          "hash": "1665788213733948812"
+        }
+      ],
+      "server": [
+        {
+          "file": "apps/server/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/server/jest.config.ts",
+          "hash": "4920721498772935253"
+        },
+        {
+          "file": "apps/server/project.json",
+          "hash": "8271395019954148117"
+        },
+        {
+          "file": "apps/server/src/.DS_Store",
+          "hash": "15595112781906493974"
+        },
+        {
+          "file": "apps/server/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/server/src/config/mongo.ts",
+          "hash": "234687145244152837",
+          "deps": [
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/server/src/config/passport.ts",
+          "hash": "9650624200429791705",
+          "deps": [
+            "npm:passport",
+            "npm:passport-github"
+          ]
+        },
+        {
+          "file": "apps/server/src/controllers/auth-controllers/emailAuthController.ts",
+          "hash": "10392210338772395062",
+          "deps": [
+            "npm:crypto",
+            "npm:bcrypt",
+            "npm:jsonwebtoken",
+            "npm:@models/User"
+          ]
+        },
+        {
+          "file": "apps/server/src/controllers/auth-controllers/githubAuthController.ts",
+          "hash": "11954231401591265372",
+          "deps": [
+            "npm:@models/User",
+            "npm:axios",
+            "npm:@octokit/rest"
+          ]
+        },
+        {
+          "file": "apps/server/src/controllers/user-controllers/userGithubController.ts",
+          "hash": "107171096444773267",
+          "deps": [
+            "npm:utils/types"
+          ]
+        },
+        {
+          "file": "apps/server/src/helpers/generateJwt.ts",
+          "hash": "17788013739505743037",
+          "deps": [
+            "npm:jsonwebtoken"
+          ]
+        },
+        {
+          "file": "apps/server/src/helpers/pulumiMethods.ts",
+          "hash": "12888832967164118430",
+          "deps": [
+            "npm:@pulumi/pulumi"
+          ]
+        },
+        {
+          "file": "apps/server/src/helpers/zipFileFunctions.ts",
+          "hash": "14843342980932021367",
+          "deps": [
+            "npm:fs",
+            "npm:path",
+            "npm:yauzl",
+            "npm:progress-stream"
+          ]
+        },
+        {
+          "file": "apps/server/src/main.ts",
+          "hash": "1913970251727217662",
+          "deps": [
+            "npm:express",
+            "npm:path",
+            "npm:helmet",
+            "npm:cors",
+            "npm:morgan",
+            "npm:dotenv",
+            "npm:@config/mongo",
+            "npm:@helpers/pulumiMethods",
+            "npm:express-session",
+            "npm:@routes/auth/auth",
+            "npm:@routes/static-sites/static-sites",
+            "npm:@routes/auth/github",
+            "npm:@routes/user/user"
+          ]
+        },
+        {
+          "file": "apps/server/src/middleware/authMiddeware.ts",
+          "hash": "8223126094003029206",
+          "deps": [
+            "npm:express",
+            "npm:jsonwebtoken"
+          ]
+        },
+        {
+          "file": "apps/server/src/models/StaticSite.ts",
+          "hash": "13295648489749145094",
+          "deps": [
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/server/src/models/User.ts",
+          "hash": "3806126936296634520",
+          "deps": [
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/server/src/routes/auth/auth.ts",
+          "hash": "18211086663215313151",
+          "deps": [
+            "npm:express",
+            "npm:@controllers/auth-controllers/emailAuthController"
+          ]
+        },
+        {
+          "file": "apps/server/src/routes/auth/github.ts",
+          "hash": "16346614966953266582",
+          "deps": [
+            "npm:express",
+            "npm:@controllers/auth-controllers/githubAuthController"
+          ]
+        },
+        {
+          "file": "apps/server/src/routes/static-sites/static-sites.ts",
+          "hash": "4143419956393538066",
+          "deps": [
+            "npm:@helpers/pulumiMethods",
+            "npm:express",
+            "npm:multer"
+          ]
+        },
+        {
+          "file": "apps/server/src/routes/user/user.ts",
+          "hash": "7567162608079388655",
+          "deps": [
+            "npm:@controllers/user-controllers/userGithubController",
+            "npm:@middleware/authMiddeware",
+            "npm:@models/User",
+            "npm:express",
+            "npm:utils/types"
+          ]
+        },
+        {
+          "file": "apps/server/src/utils/types.ts",
+          "hash": "8943875057501180729",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/server/tsconfig.app.json",
+          "hash": "6758816428596401805"
+        },
+        {
+          "file": "apps/server/tsconfig.json",
+          "hash": "6984697050737651105"
+        },
+        {
+          "file": "apps/server/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "apps/server/webpack.config.js",
+          "hash": "5708803163266262522",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "server-e2e": [
+        {
+          "file": "apps/server-e2e/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/server-e2e/jest.config.ts",
+          "hash": "14212190043399416865"
+        },
+        {
+          "file": "apps/server-e2e/project.json",
+          "hash": "17410568882007441816"
+        },
+        {
+          "file": "apps/server-e2e/src/server/server.spec.ts",
+          "hash": "4579662685003779048",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/server-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/server-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/server-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/server-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "apps/server-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
+        }
+      ]
+    }
+  }
+}
