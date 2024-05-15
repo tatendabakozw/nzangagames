@@ -30,7 +30,9 @@ export function Index() {
       // console.log(data);
       // dispatch({ type: "USER_LOGIN", payload: data.user });
       // setMsg(getMessage(data));
-      router.push("/overview");
+      if (email === "admin" && password === "123456") {
+        router.push("/overview");
+      }
       setPassword("");
       setEmail("");
       setLoading(false);
