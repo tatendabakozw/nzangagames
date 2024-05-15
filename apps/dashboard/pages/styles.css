@@ -3,12 +3,19 @@
 @tailwind utilities;
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.truncate-2-lines {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2; /* Number of lines to show */
 }
 
 @layer base {
   body {
-    @apply dark:bg-slate-900 bg-white;
+    @apply dark:bg-zinc-900 bg-white;
   }
 }
 
@@ -23,52 +30,52 @@
 
   /* background styles */
   .bg-primary {
-    @apply dark:bg-slate-900 bg-white;
+    @apply dark:bg-zinc-900 bg-white;
   }
   .bg-secondary {
-    @apply dark:bg-slate-800 bg-slate-100;
+    @apply dark:bg-zinc-800 bg-zinc-100;
   }
 
   /* border styles */
   .main-border-r {
-    @apply border-r dark:border-slate-800 border-slate-200;
+    @apply border-r dark:border-zinc-800 border-zinc-200;
   }
 
   .main-border {
-    @apply border border-slate-200;
+    @apply border border-zinc-200;
   }
   .main-border-l {
-    @apply border-l border-slate-200;
+    @apply border-l border-zinc-200;
   }
   .main-border-t {
-    @apply border-t border-slate-200;
+    @apply border-t border-zinc-200;
   }
   .main-border-b {
-    @apply border-b  border-slate-200;
+    @apply border-b  border-zinc-200;
   }
 
   .main-divive-x {
-    @apply divide-x-[1px] divide-slate-200;
+    @apply divide-x-[1px] divide-zinc-200;
   }
   .main-divide-y {
-    @apply divide-y-[1px] border-slate-200;
+    @apply divide-y-[1px] border-zinc-200;
   }
 
   /* text styles */
   .main-text {
-    @apply dark:text-slate-400 text-slate-700;
+    @apply dark:text-zinc-400 text-zinc-700;
   }
   .main-link-text {
-    @apply dark:text-slate-400 text-slate-600 dark:hover:text-slate-300 hover:text-slate-900 cursor-pointer;
+    @apply dark:text-zinc-400 text-zinc-600 dark:hover:text-zinc-300 hover:text-zinc-900 cursor-pointer;
   }
   .light-link-text {
     @apply text-secondary-original hover:text-secondary-light cursor-pointer;
   }
   .heading-text {
-    @apply dark:text-slate-200 text-slate-900;
+    @apply dark:text-zinc-200 text-zinc-900;
   }
-  .heading-small{
-    @apply dark:text-slate-200 text-slate-900 font-bold text-lg;
+  .heading-small {
+    @apply dark:text-zinc-200 text-zinc-900 font-bold text-lg;
   }
 
   /* width sylles */

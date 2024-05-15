@@ -10665,6 +10665,15 @@
         "hash": "sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA=="
       }
     },
+    "npm:next-themes": {
+      "type": "npm",
+      "name": "npm:next-themes",
+      "data": {
+        "version": "0.3.0",
+        "packageName": "next-themes",
+        "hash": "sha512-/QHIrsYpd6Kfk7xakK4svpDI5mmXP0gfvCoJdGpZQ2TOrQZmsW0QxjaiLn8wbIKjtm4BTSqLoix4lxYYOnLJ/w=="
+      }
+    },
     "npm:no-case": {
       "type": "npm",
       "name": "npm:no-case",
@@ -29565,6 +29574,16 @@
     {
       "source": "npm:next-auth",
       "target": "npm:uuid@8.3.2",
+      "type": "static"
+    },
+    {
+      "source": "npm:next-themes",
+      "target": "npm:react",
+      "type": "static"
+    },
+    {
+      "source": "npm:next-themes",
+      "target": "npm:react-dom",
       "type": "static"
     },
     {

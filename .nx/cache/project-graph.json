@@ -11020,6 +11020,15 @@
         "hash": "sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA=="
       }
     },
+    "npm:next-themes": {
+      "type": "npm",
+      "name": "npm:next-themes",
+      "data": {
+        "version": "0.3.0",
+        "packageName": "next-themes",
+        "hash": "sha512-/QHIrsYpd6Kfk7xakK4svpDI5mmXP0gfvCoJdGpZQ2TOrQZmsW0QxjaiLn8wbIKjtm4BTSqLoix4lxYYOnLJ/w=="
+      }
+    },
     "npm:no-case": {
       "type": "npm",
       "name": "npm:no-case",
@@ -15140,6 +15149,41 @@
       },
       {
         "source": "landing-page",
+        "target": "npm:axios",
+        "type": "dynamic"
+      },
+      {
+        "source": "landing-page",
+        "target": "npm:axios",
+        "type": "static"
+      },
+      {
+        "source": "landing-page",
+        "target": "npm:react-icons",
+        "type": "dynamic"
+      },
+      {
+        "source": "landing-page",
+        "target": "npm:react-icons",
+        "type": "static"
+      },
+      {
+        "source": "landing-page",
+        "target": "npm:@heroicons/react",
+        "type": "dynamic"
+      },
+      {
+        "source": "landing-page",
+        "target": "npm:@heroicons/react",
+        "type": "static"
+      },
+      {
+        "source": "landing-page",
+        "target": "npm:next-auth",
+        "type": "static"
+      },
+      {
+        "source": "landing-page",
         "target": "npm:@nx/next",
         "type": "static"
       },
@@ -15189,6 +15233,16 @@
       },
       {
         "source": "dashboard",
+        "target": "npm:next-themes",
+        "type": "dynamic"
+      },
+      {
+        "source": "dashboard",
+        "target": "npm:next-themes",
+        "type": "static"
+      },
+      {
+        "source": "dashboard",
         "target": "npm:@chakra-ui/react",
         "type": "dynamic"
       },
@@ -15205,16 +15259,6 @@
       {
         "source": "dashboard",
         "target": "npm:js-cookie",
-        "type": "static"
-      },
-      {
-        "source": "dashboard",
-        "target": "npm:axios",
-        "type": "dynamic"
-      },
-      {
-        "source": "dashboard",
-        "target": "npm:axios",
         "type": "static"
       },
       {
@@ -15240,6 +15284,11 @@
       {
         "source": "dashboard",
         "target": "npm:next-auth",
+        "type": "static"
+      },
+      {
+        "source": "dashboard",
+        "target": "npm:axios",
         "type": "static"
       },
       {
@@ -30993,6 +31042,18 @@
       {
         "source": "npm:next-auth",
         "target": "npm:uuid@8.3.2",
+        "type": "static"
+      }
+    ],
+    "npm:next-themes": [
+      {
+        "source": "npm:next-themes",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:next-themes",
+        "target": "npm:react-dom",
         "type": "static"
       }
     ],

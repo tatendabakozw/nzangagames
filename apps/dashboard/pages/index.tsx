@@ -1,42 +1,42 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import PrimaryButton from '../components/buttons/PrimaryButton';
-import { useContext, useState } from 'react';
-import { useRouter } from 'next/router';
-import { FaGithub } from 'react-icons/fa';
-import Link from 'next/link';
-import axios from 'axios';
-import { apiUrl } from '@utils/apiUrl';
-import { getMessage } from '@helpers/getMessage';
-import Alert from '@components/alerts/Alert';
-import { Store } from '@context/Store';
-import { ContextType } from '@utils/types';
+import PrimaryButton from "../components/buttons/PrimaryButton";
+import { useContext, useState } from "react";
+import { useRouter } from "next/router";
+import { FaGithub, FaGoogle } from "react-icons/fa";
+import Link from "next/link";
+import axios from "axios";
+import { apiUrl } from "@utils/apiUrl";
+import { getMessage } from "@helpers/getMessage";
+import Alert from "@components/alerts/Alert";
+import { Store } from "@context/Store";
+import { ContextType } from "@utils/types";
 
 export function Index() {
-  const [email, setEmail] = useState<string>('');
-  const [password, setPassword] = useState<string>('');
+  const [email, setEmail] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const router = useRouter();
   const { dispatch } = useContext<ContextType>(Store);
-  const [err, setErr] = useState('');
-  const [msg, setMsg] = useState('');
+  const [err, setErr] = useState("");
+  const [msg, setMsg] = useState("");
 
   const login_user = async () => {
     setLoading(true);
     try {
-      const {data} = await axios.post(`${apiUrl}/api/auth/login`, {
-        email,
-        password,
-      })
-      console.log(data);
-      dispatch({ type: 'USER_LOGIN', payload: data.user });
-      setMsg(getMessage(data));
-      router.push('/overview');
-      setPassword('');
-      setEmail('');
+      // const { data } = await axios.post(`${apiUrl}/api/auth/login`, {
+      //   email,
+      //   password,
+      // });
+      // console.log(data);
+      // dispatch({ type: "USER_LOGIN", payload: data.user });
+      // setMsg(getMessage(data));
+      router.push("/overview");
+      setPassword("");
+      setEmail("");
       setLoading(false);
-    } catch (error:any) {
+    } catch (error: any) {
       setErr(getMessage(error));
-      setMsg('');
+      setMsg("");
       console.error(getMessage(error));
       setLoading(false);
     }
@@ -44,8 +44,8 @@ export function Index() {
 
   return (
     <div className="relative min-h-screen flex-col grid py-8 items-start content-center bg-white">
-      <p className="absolute md:text-start text-center top-10 text-primary-original text-4xl font-semibold left-10">
-        Gigiforge
+      <p className="absolute md:text-start text-center top-10 text-zinc-900 text-4xl font-semibold left-10">
+        Nzanga <span className="text-primary-original">Games</span>
       </p>
       {/* <div className="z-0 absolute top-20 left-24 md:w-96 w-60 md:h-96 h-60 bg-primary-superlight dark:bg-primary-dark rounded-full blur-3xl opacity-50 mix-blend-multiply animate-blob" /> */}
       {/* <div className="z-0 absolute top-32 right-52 md:w-96 w-60 md:h-96 h-60 bg-secondary-superlight dark:bg-secondary-dark rounded-full blur-3xl opacity-50 mix-blend-multiply animate-blob animation-delay-2000" /> */}
@@ -58,8 +58,8 @@ export function Index() {
           </p>
         </div>
         <button className="flex flex-row items-center border content-center justify-center border-slate-300/50 w-full p-2 rounded-lg space-x-4">
-          <FaGithub />
-          <p className="text-sm text-slate-700">Sign in with Github</p>
+          <FaGoogle />
+          <p className="text-sm text-slate-700">Sign in with Google</p>
         </button>
         <div className="flex flex-row items-center space-x-2">
           <div className="border-t border-slate-300/50 flex-1" />
@@ -89,8 +89,10 @@ export function Index() {
         {msg && <Alert message={msg} type="success" />}
         <PrimaryButton onClick={login_user} loading={loading} text="Log In" />
         <div className="text-slate-700 flex flex-row items-center text-xs font-medium text-center">
-          <p>Don&apos;t have an account?{' '}</p>
-          <Link href={'/register'} className="text-primary-original pl-1">Sign Up</Link>
+          <p>Don&apos;t have an account? </p>
+          <Link href={"/register"} className="text-primary-original pl-1">
+            Sign Up
+          </Link>
         </div>
       </div>
     </div>

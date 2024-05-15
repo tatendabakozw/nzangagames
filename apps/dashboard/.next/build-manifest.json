@@ -15,11 +15,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -29,16 +24,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/new/static-site": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/new/static-site.js"
-    ],
-    "/new/web-service": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/new/web-service.js"
     ],
     "/overview": [
       "static/chunks/webpack.js",
